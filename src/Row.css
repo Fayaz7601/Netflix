@@ -1,0 +1,30 @@
+.movies {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.movie {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    transition: .5s ease-in-out;
+}
+
+.row {
+    margin-left: 30px;
+}
+
+.movies::-webkit-scrollbar {
+    display: none;
+}
+.movie:hover{
+    transform: scale(1.1);
+
+}
+.largeMovie{
+    max-height: 350px;
+
+    width: 100%;
+   
+}
